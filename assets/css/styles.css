@@ -1,0 +1,141 @@
+body{
+    background-color: #FFE7FF;
+}
+nav{
+    background-color: #C597C5;
+}
+
+
+#header{
+    background-image: url('../img/bg_header.jpg');
+}
+
+#header .card-title{
+    font-size: 25px;
+}
+
+#header .card-text{
+    font-size: 15px;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+}
+
+#tema-icon{
+    color: #46004D;
+}
+
+#contenidos .card{
+    max-height: 600px;
+    max-width: 400px;
+}
+
+#contenidos .card-img-top{
+    max-height: 400px;
+    max-width: 400px;
+}
+
+#spotify{
+    width: 100%;
+    height: 500px;
+    border-radius: 12px;
+}
+
+#form {
+    width: 500px;
+}
+
+#notion { 
+    width: 100%; 
+    height: 500px; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    padding: none; }
+
+#us-logo{
+    width: 250px;
+}
+
+#footer{
+    background-color: #C597C5;
+    color: white;
+}
+
+#footer img{
+    width: 80px;
+    height: 80px;
+}
+
+#googleMap{
+    max-width: 800px;
+    max-height: 500px;
+    min-height: 200px;
+}
+
+#footer-nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#footer-nav li {
+    padding-bottom: 5px;
+}
+
+#footer-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer-nav a:hover {
+    color: #46004D;
+}
+
+
+
+[data-bs-theme="dark"] {
+    background-color: #120014;
+
+    #nav, #footer{
+        background-color: #8C005A;
+        color: rgb(255, 255, 255, .85) 
+    };
+
+    #footer a{
+        color: rgb(255, 255, 255, .65) 
+    };
+
+    #footer a:hover{
+        color: rgb(255, 255, 255, .85) 
+    };
+    
+    .btn{
+        color: rgb(255, 255, 255, .85);
+        border-color: rgb(255, 255, 255, .85)
+    };
+
+    #tema-icon{
+        color: #FFE7FF;
+    }
+
+    #contenidos .card{
+        background-color: #1B001E;
+    }
+  
+    #buscador input{
+        background-color: #230027;
+        border-color: #C71A5A;
+    }
+
+
+    .btn-outline-light:hover{
+        color: #FFE7FF;
+        background-color: #C71A5A;
+        border-color: #FFE7FF
+    }
+
+    .footer{
+        background-color: #070008;
+    }
+}
